@@ -1,12 +1,12 @@
 
 import 'package:flutter/material.dart';
 
-class twoRadiusButton extends StatelessWidget {
+class twoSideRadiusButton extends StatelessWidget {
   final String? text;
   final double? redius;
   final Function? press;
 
-  twoRadiusButton({super.key, this.text, this.press, this.redius});
+  twoSideRadiusButton({super.key, this.text, this.press, this.redius});
 
   @override
   Widget build(BuildContext context) {

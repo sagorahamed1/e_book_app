@@ -1,6 +1,7 @@
-import 'package:e_book/views/pages/welcoma/welcomaPage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_sizer/flutter_sizer.dart';
+
+import 'views/pages/welcome/welcomaPage.dart';
 
 void main() {
   runApp(const MyApp());

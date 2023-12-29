@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 import '../home_page/widgets/readingList_card.dart';
-import '../home_page/widgets/two_radius_buttom.dart';
+import '../home_page/widgets/two_side_radius_buttom.dart';
 
 class DetailsScreen extends StatelessWidget {
   @override
@@ -138,7 +138,7 @@ class DetailsScreen extends StatelessWidget {
                                   ),
                                   SizedBox(width: 10),
                                   Expanded(
-                                    child: twoRadiusButton(
+                                    child: twoSideRadiusButton(
                                       text: "Read",
                                       redius : 10,
                                     ),

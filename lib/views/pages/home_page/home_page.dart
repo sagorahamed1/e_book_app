@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'widgets/readingList_card.dart';
-import 'widgets/two_radius_buttom.dart';
+import 'widgets/two_side_radius_buttom.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -158,7 +158,7 @@ class HomePage extends StatelessWidget {
                                   child: Container(
                                     height: 40,
                                     width: 100,
-                                    child: twoRadiusButton(
+                                    child: twoSideRadiusButton(
                                       text: "Read",
                                     ),
                                   ),

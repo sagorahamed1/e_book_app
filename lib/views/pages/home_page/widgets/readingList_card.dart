@@ -1,5 +1,5 @@
 
-import 'package:e_book/views/pages/home_page/widgets/two_radius_buttom.dart';
+import 'package:e_book/views/pages/home_page/widgets/two_side_radius_buttom.dart';
 import 'package:flutter/material.dart';
 
 import '../../details_page/details_page.dart';
@@ -103,7 +103,7 @@ class readingListCard extends StatelessWidget {
                         ),
                       ),
                       Expanded(
-                        child: twoRadiusButton(
+                        child: twoSideRadiusButton(
                           text: "Read",
                           press: () {
                             readMore;
